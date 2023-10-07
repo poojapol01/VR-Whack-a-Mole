@@ -12,6 +12,7 @@ GameObject:
   - component: {fileID: 2419715883095300686}
   - component: {fileID: 5218714385111462218}
   - component: {fileID: 4350508545396140039}
+  - component: {fileID: 8116484061357182615}
   m_Layer: 0
   m_Name: Mole
   m_TagString: Untagged
@@ -98,3 +99,19 @@ CapsuleCollider:
   m_Height: 2
   m_Direction: 1
   m_Center: {x: 0, y: 0, z: 0}
+--- !u!114 &8116484061357182615
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6749692990317421239}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2691fac4256ea4bc5825ec2e2b618945, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  maxVisibleHeight: 0.6
+  hiddenHeight: 0.076
+  speed: 4
+  disappearDuration: 0.5
